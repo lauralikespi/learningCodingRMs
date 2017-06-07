@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<style>
+			.styling {
+				color: #00e5ee;
+				font-family: Calibri, sans-serif; 
+				font-size: 18px;
+			}
+		</style>
+		<script>
+			$(document).ready(function(){
+					$(".interaction").hover(function(){
+						$(this).css({"color": "purple", "font-size": "200%"});
+					});
+				});
+
+		</script>
+	</head>
+	<body>
+		<p> I am just some text </p>
+		
+		<p class="styling"> I am some styled text. </p>
+
+		<p class="styling interaction"> Look, at me I'm so fancy. </p>
+
+
+	</body>
+</html>
